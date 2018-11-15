@@ -1,7 +1,10 @@
 package com.in28minutes.springboot.microservice.example.currencyconversion.springbootmicroservicecurrencyconversion;
 
+import org.springframework.stereotype.Component;
+
 import java.math.BigDecimal;
 
+@Component
 public class CurrencyConversionBean {
 
     private Long id;
